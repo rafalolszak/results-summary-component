@@ -190,7 +190,7 @@ main .result{
 }
 
 .summary button{
-    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0%, #2F2CE9 100%); 
+    background-color: var(--Dark-gray-blue);
     border-radius: 128px;
     color: var(--White);
     font-family: Hanken Grotesk;
@@ -202,6 +202,10 @@ main .result{
     cursor: pointer;
     margin-top: 2.6rem;
    
+}
+
+.summary button:hover{
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0%, #2F2CE9 100%); 
 }
 
 @media only screen and (max-width: 900px){
