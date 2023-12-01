@@ -262,8 +262,7 @@ main .result{
 @media only screen and (max-width: 680px){
     
     body{
-        
-        
+        align-items: stretch;
     }
     
     main{
